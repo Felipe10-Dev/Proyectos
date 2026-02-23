@@ -1,0 +1,656 @@
+/* Importamos La Fuente "Montserrat" */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Body */
+body {
+
+    background-color: #F5F7FA;
+
+
+}
+
+
+/* Estilos Aplicados A Toda La Pagina Web */
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat' sans-serif;
+
+
+}
+
+
+
+/* Header */
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A1A1A1;
+    padding: 20px;
+
+
+
+
+}
+
+
+/* Iconos */
+.material-symbols-outlined {
+    display: none;
+    font-size: 30px;
+    color: #2A3B59;
+}
+
+/* Enlaces */
+a {
+
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+
+
+}
+
+
+/* Logo */
+.logo {
+
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+
+/* Lista Desordenada -> Menu De Navegacion */
+.menuNavegacion {
+
+    color: #FFFFFF;
+    list-style-position: outside;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+
+/* Elementos De La Lista Desordenada -> Menu De Navegacion */
+.menuNavegacion li {
+
+    padding: 5px 0px;
+    cursor: pointer;
+
+
+}
+
+
+/* Efecto Al Pasar El Mouse Sobre Cualquiera De Los Elementos De La lista */
+.menuNavegacion li:hover {
+
+
+    border-bottom: 3px solid #2A3B59;
+
+
+}
+
+
+
+/* Main */
+main {
+
+    width: 100%;
+
+}
+
+
+
+
+
+/* Subtitulos */
+.subtitulos {
+
+    width: max-content;
+    margin: 20px 0px 0px 20px;
+    text-align: left;
+    color: #2A3B59;
+    font-size: 45px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    position: relative;
+    border-bottom: 3px solid #2A3B59;
+
+
+}
+
+
+
+/* ==============
+Seccion Celulares
+=================
+*/
+.celulares {
+
+    margin-bottom: 6%;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
+
+}
+
+
+/* Referencias */
+.referencias {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 5px 0px 20px 0px;
+
+
+}
+
+
+/* Imagenes Celulares */
+.imagenesCelulares {
+
+    border-radius: 3px;
+    width: 150px;
+
+}
+
+
+/* Contenedor De Cada Articulo -> Productos */
+.productos {
+
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 30px 15px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+
+}
+
+
+
+
+/* Contenedor Imagenes */
+.contenedorImagenes {
+
+    text-align: center;
+
+}
+
+
+
+/* Descripcion */
+.descripcion {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto 30px auto;
+    width: 90%;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #313131;
+    flex: 1;
+
+
+}
+
+
+
+
+/* Contenedores Precios */
+.contenedoresPrecio {
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+
+/* Precio Sin Descuento */
+.precioSinDescuento {
+
+
+    text-decoration: line-through;
+    color: #A1A1A1;
+
+}
+
+
+/* Porcentaje De Descuento */
+.porcentajeDescuento {
+
+    margin-left: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #F45B22;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+
+
+/* Precio Con Descuento Y Sufijo */
+.precioConDescuento,
+.sufijo {
+
+    color: #F45B22;
+    font-weight: bold;
+
+
+}
+
+
+/* Sufijo */
+.sufijo {
+
+    font-size: 16px;
+    margin-left: 5px;
+
+
+}
+
+
+/* Contenedor Con Descuento */
+.contenedorConDescuento {
+
+    margin: 0px 0px 10px 0px;
+
+}
+
+
+
+/* Gadget */
+.gadget {
+
+    left: -35px;
+    top: -20px;
+    position: absolute;
+    text-align: center;
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #F45B22;
+
+}
+
+/* Parrafo Oferta */
+.oferta {
+
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: auto;
+    font-size: 13px;
+
+}
+
+
+/* Boton Comprar */
+.btnComprar {
+
+    display: none;
+    font-variant: small-caps;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #F45B22;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+/* Efecto En El Boton Al Pasar El Mouse */
+.btnComprar:hover {
+
+
+    background-color: #F45B22;
+
+}
+
+
+/* Transicion Al Pasar El Mouse Por Encima De Cualquier Card */
+.productos:hover {
+
+    box-shadow: 0 0 10px #A1A1A1;
+    transform: scale(1.02);
+
+
+}
+
+
+/* Efecto Al Pasar El Mouse */
+.productos:hover .btnComprar {
+
+    display: block;
+
+}
+
+
+
+/* ================
+Seccion Laptops 
+===================
+ */
+
+.laptops {
+
+    margin-bottom: 6%;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
+
+}
+
+
+
+
+/* Articulo 4 -> No Tiene Descuento, Formatemos Su Estilo */
+.art4 .precioSinDescuento {
+
+    font-weight: bold;
+    color: #F45B22;
+    text-decoration: none;
+
+}
+
+
+
+/* Imagenes Laptops */
+.imagenesLaptops {
+
+    border-radius: 3px;
+    width: 200px;
+
+}
+
+
+
+
+/* ================
+Seccion Televisores
+===================
+ */
+.televisores {
+
+    margin-bottom: 6%;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+
+
+
+}
+
+
+/* Imagenes Televisores */
+.imagenesTelevisores {
+
+    border-radius: 3px;
+    width: 200px;
+
+}
+
+
+
+/* Footer */
+footer {
+
+    height: 10vh;
+    background-color: #A1A1A1;
+    width: 100%;
+
+}
+
+
+footer p {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+}
+
+
+
+/*
+=================
+Diseño Responsive
+=================
+*/
+
+
+/* Celulares */
+@media (max-width:768px) {
+
+
+    /* Header */
+    header {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* Texto Que Aparce En Pantallas Grandes */
+    .texto {
+
+        display: none;
+
+    }
+
+
+
+
+    /* Iconos */
+    .material-symbols-outlined {
+
+        
+        display: block;
+
+    }
+
+    /* Lista Desordenada -> Menu De Navegacion */
+    .menuNavegacion {
+
+        gap: 80px;
+
+
+    }
+
+    /* Quitar El Efecto Al Pasar El Mouse Sobre Los ELementos De La Lista */
+    .menuNavegacion li:hover {
+
+        border-bottom: none;
+
+    }
+
+    /* Logo */
+    .logo {
+
+        width: 100px;
+
+
+    }
+
+
+    /* Main */
+    main {
+
+        width: 100%;
+
+
+
+    }
+
+
+
+    /* 
+    =================
+    Seccion Celulares
+    =================
+    */
+
+    .celulares {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+
+    }
+
+
+
+    /* Productos */
+    .productos {
+
+        width: 80%;
+        transition: none;
+
+
+    }
+
+
+    /* Quitar Efectos Al Pasar El Mouse  */
+    .productos:hover {
+
+        transform: none;
+        transition: none;
+        box-shadow: none;
+
+    }
+
+
+    /* Boton Comprar */
+    .btnComprar {
+
+        display: block;
+
+
+    }
+    
+
+    /* Gadget */
+    .gadget {
+
+        top: -10px;
+        width: 70px;
+        height: 70px;
+
+    }
+
+    /* Descripcion */
+    .descripcion {
+
+        width: 100%;
+        font-size: 16px;
+
+
+    }
+
+
+    /* Subtitulos */
+    .subtitulos {
+
+        margin: 70px auto 10px auto;
+        font-size: 35px;
+        border-bottom: none;
+
+    }
+
+
+
+    /* 
+    ===============
+    Seccion Laptops
+    ===============
+    */
+    .laptops {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+
+    }
+
+
+
+
+    /*
+    =================== 
+    Seccion Televisores
+    ===================
+     */
+    .televisores {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+
+
+
+
+
+
+}

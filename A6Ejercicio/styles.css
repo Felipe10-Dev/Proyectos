@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+
+/* Container Cards */
+.container-cards {
+
+    background-color: #FEFEFE;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 20px;
+    
+    
+}
+
+
+
+
+
+/* Cards */
+.cards {
+
+    margin: 20px;
+    flex-basis: 300px;
+    
+    
+}
+
+
+/* Container-logo */
+.container-logo {
+
+    margin: auto;
+    width: 150px;
+    height: 70px;
+    
+
+}
+
+
+/* Imagenes Logos */
+.logos {
+
+    background-color: #A1A1A1;
+    width: 100%;
+
+}
+
+
+/* Container Motorcycle Images */
+.container-motorcycle-images {
+
+    margin: auto;
+    width: 200px;
+    height: 150px;
+
+}
+
+/* Motorcycle Images */
+.motorcycles-images {
+
+    width: 100%;
+
+}
+
+
+
+/* Card Especial */
+.card-especial {
+
+    flex-basis: 600px;
+
+}
+
+
+/* SUbtitulos */
+.subtitles {
+
+    text-transform: uppercase;
+    font-weight: 900;
+    width: max-content;
+    margin: auto;
+
+
+}
+
+
+/* Descripcion */
+.description {
+
+    height: 150px;
+    width: 90%;
+    margin: 10px auto;
+    padding: 25px 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    
+
+}
+
+
+
+/* card-especial -> Descripcion */
+.card-especial {
+
+    padding: 0px;
+    background-color: #D4AF37;
+    border-radius: 10px 0px 10px 0px;
+    
+}
+
+
+.card-especial .description {
+
+    padding:  50px 30px 45px 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

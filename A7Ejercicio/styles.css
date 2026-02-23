@@ -1,0 +1,208 @@
+/* Importamos Tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    font-family: "Roboto" ,  sans-serif;
+}
+
+
+
+/* Header */
+.header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 45px;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    background-color: #F1F1F1;
+
+}
+
+
+
+/* Container Logo */
+.container-logo {
+
+
+    flex: 0 0 150px;
+
+}
+
+
+/* Efecto Al Pasar El Mouse */
+.container-logo:hover {
+
+    cursor: pointer;
+
+}
+
+
+/* logo BMW Motorrad */
+.logo {
+
+    width: 100%;
+
+}
+
+
+/* Menu De Navegacion */
+.navigation-menu {
+
+
+    flex: 1 0 0;
+
+}
+
+/* Lista Desordenada -> Lista Menu Navegacion */
+.list-navigation-menu {
+
+    gap: 50px;
+    padding: 40px 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    list-style-position: outside;
+
+
+}
+
+
+/* Elementos Del Menu De Navegacion */
+.list-navigation-menu li {
+
+    transition: border-bottom 0.1s ease;
+    padding: 10px 0px;
+
+}
+
+
+/* Efecto Al Pasar EL Mouse Sobre Algun Elemento De Nuestro Menu De Navegacion */
+.list-navigation-menu li:hover {
+
+    border-bottom: 4px solid #0569B3;
+
+}
+
+
+/* Enlaces */
+a {
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 300;
+
+}
+
+
+/* Button */
+button {
+
+    
+    flex: 0 1 0;
+    border-radius: 5px;
+    padding: 15px 10px;
+    border: none;
+    background-color: #0569B3;
+    transition: background-color 0.2s ease;
+    
+
+}
+
+/* Efecto En El Boton Al Pasar El Mouse */
+button:hover {
+
+    
+    background-color: #034F87;
+
+}
+
+
+/* Enlace Del Boton */
+button a {
+
+    font-size: 15px;
+    font-variant: small-caps;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    font-weight: 900;
+
+}
+
+
+
+
+
+/* Contenedor De Cards */
+.cards-container {
+
+
+    padding-top: 12%;
+
+}
+
+
+/* Motorcycle Categories */
+#sport ,#m , #tour, #roadster, #heritage, #adventure, #urban-mobility {
+
+    gap: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    margin: 0px 0px 165px 0px;
+    scroll-margin-top: 25vh;
+
+
+
+
+}
+
+
+/* Subtitles */
+.subtitulos {
+
+    text-align: center;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    color: #034F87;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+
+/* Referencia */
+.referencia {
+
+    text-align: center;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+
+}
+
+/* Año De Lanzamiento */
+.año {
+
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;
+    color: #616161;
+
+
+
+}
